@@ -1,24 +1,32 @@
-# RealTimeSignLanguageRecognition
-
-#Članovi tima
+**Real time object detection and recognition
+===
+Članovi tima
+===
 SW 85/2017 Aleksandar Đurić
 SW 86/2017 Dara Jovanović
 SW 90/2017 Milica Lazić
 
-#Definicija problema
-Detektovanje znakovnog jezika sa snimka.
+Definicija problema
+===
+Detektovanje 15 različitih vrsta objekata sa video snimka.
 
-#Motivacija problema
-Olakšavanje svakodnevne komunikacije sa gluvo-nemim osobama.
+Motivacija problema
+===
+Prepoznavanje objekata određenog tipa
 
-#Skup podataka
-Podaci za obuku će biti ručno napravljeni. Sami ćemo napraviti set fotografija za svako slovo iz alfabeta, kao i set fotografija koje ne predstavljaju nikakav konkretan znak.
+Skup podataka
+===
+Podaci za obuku se koriste iz dataset-a
+http://cocodataset.org/#...
 
-#Metodologije
+Metodologije
+===
 Python
 OpenCV
 CNN
-Za izdvajanje šake od pozadine slike koristimo ThensorFlow object detection. Prvo prevodimo sliku u crno-belu, gde je šaka crne boje, a pozadina bela (ili obrnuto). Na osnovu centra mase, šaku možemo da izrežemo sa slike. Nakon toga vršimo predikciju slova alfabeta.
+Za  izdvajanje objekta od pozadine slike koristimo ThensorFlow object detection.
+Prvo prevodimo sliku u crno-belu, gde je objekat crne boje, a pozadina bela (ili obrnuto). Na osnovu centra mase, objekat možemo da izrežemo sa slike. Nakon toga imenujemo objekat.
 
-#Metod evaluacije
-Validacija rešenja će se vršiti na osnovu test skupa slika, gde svaka slika predstavlja slovo alfabeta.
+Metod evaluacije
+===
+Validacija rešenja će se vršiti na osnovu test skupa sa video klipova.
