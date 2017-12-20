@@ -1,5 +1,5 @@
-**Real time object detection and recognition
-===
+Real time object detection and recognition
+======
 Članovi tima
 ===
 SW 85/2017 Aleksandar Đurić
