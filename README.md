@@ -19,8 +19,7 @@ http://cocodataset.org/#...
 * Python
 * OpenCV
 * CNN
-Za  izdvajanje objekta od pozadine slike koristimo ThensorFlow object detection.
-Prvo prevodimo sliku u crno-belu, gde je objekat crne boje, a pozadina bela (ili obrnuto). Na osnovu centra mase, objekat možemo da izrežemo sa slike. Nakon toga imenujemo objekat.
+* Tensorflow
 
-## Metod evaluacije
-Validacija rešenja će se vršiti na osnovu test skupa sa video klipova.
+## DEMO
+http://www.mediafire.com/file/atfm4mc3dmc4m1t/2018-02-23+22-47-29.flv
